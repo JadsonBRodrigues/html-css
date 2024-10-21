@@ -1,0 +1,7 @@
+@charset "UTF-8";
+body {
+    background-color: rgb(146, 79, 57); font-family: Verdana, Geneva, Tahoma, sans-serif; font-style: normal; font-size: 15px;}
+h1 {color: brown; background-color: darkgrey;}
+h2 {color: darkred; background-color: darkseagreen;}
+p {text-align: justify;}
+</style>

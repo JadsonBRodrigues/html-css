@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Usos</title>
+    <style>
+        body {font: normal 1em Arial, Helvetica, sans-serif;}
+        a {font-weight: bold;
+            text-decoration: none;
+            color: red;
+        }
+        
+        a:visited { color: greenyellow;}
+        a:hover {text-decoration: underline;}
+
+        .especial:hover {color: white;background-color: black; text-decoration: underline;}
+
+        .especial::before { content: '>'; 
+        font-weight: lighter;
+        }
+
+        .especial::after {
+            content: '<';
+            font-weight: lighter;
+        }
+
+
+
+    </style>
+</head>
+<body>
+    <h1>Personalizando um link</h1>
+    <p>
+        Para aprender HTML e CSS, acesse o 
+        <a href="https://github.com/gustavoguanabara/html-css/blob/master/aulas-pdf/15%20-Seletores%20personalizados.pdf">Github do professor</a>
+    </p>
+
+    <p>Caso queira conhecer mais sobre os padrões, acesse
+    
+        <a href="https://www.whatfontis.com/examples.html"> o site da WhatFontis.com</a>
+    </p>
+
+    <p>Para acompanhar os cursos em vídeos, acesse
+        <a href="https://www.whatfontis.com/examples.html" class="especial"> o link do curso no Youtube</a>
+    </p>
+
+
+
+</body>
+</html>
