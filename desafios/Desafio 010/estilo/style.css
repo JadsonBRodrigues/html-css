@@ -164,7 +164,7 @@ aside > h3 {background-color: var(--cor3);
           border-radius: 10px 10px 0px 0px;
 }
 
-
+.marcador1 {padding-left: -50px;}
 div.video {background-color: var(--cor4);
            padding: 20px;
            position: relative;
