@@ -147,13 +147,15 @@ aside {background-color: var(--cor1);
        padding: 10px; 
        border-radius: 10px;
        box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.308);
-       margim: auto
+
 
 }
 
 aside > ul {list-style-position: inside;
             columns: 2;
             list-style-type: '\2714\00A0\00A0';
+            margin-left: -5px;  
+
         }
         
 aside > h3 {background-color: var(--cor3);
