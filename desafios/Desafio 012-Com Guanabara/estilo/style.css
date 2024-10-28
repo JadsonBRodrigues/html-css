@@ -4,29 +4,12 @@
    padding: 0px;
 }
 
-@font-face {
-    font-family: PassionRegular;
-    src: url(C:\Users\jadso\Documents\html-css\html-css\desafios\Desafio 012Com Guanabara\Fonts\Passion_One format(truetype);
-}
-
-@font-face {
-    font-family: Sriracha;
-    src: url(\Fonts\Sriracha);
-}
-
-
-:root {
-       --fonte2: 'Passion One', 'sans-serif';
-       --fonte3: 'Sriracha', 'cursive';
-}
-
 
 
 html, body {background-color: darkgray;
             min-height: 100vh;
-            font-family: var(--fonte1);
-            
-}
+              
+} 
 
 header {background-color: black;
         color: white;
@@ -34,9 +17,11 @@ header {background-color: black;
 }
 
 header h1 {padding-top: 50px;
-           font-variant: small-caps;
-           font-family: var(--fonte2);
-           font-size: 7vw;
+        font-variant: small-caps;
+           font-size: 10vw;
+           letter-spacing: 5px;
+          
+          
 }
 
 header p {padding-bottom: 50px;}
@@ -51,10 +36,9 @@ header a:hover, footer a:hover {text-decoration: underline;
 
 section {padding-top: 10vh;
          padding-bottom: 10vh;
-         line-height: 2em;
+         line-height: 2.2em;
          padding-left: 30px;
-         font-family: var(--fonte3);
-         font-size: 3.5vw;
+         font-size: 3.2vw;
          
 }
 
