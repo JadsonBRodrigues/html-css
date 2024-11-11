@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teste de formulário</title>
+</head>
+<body>
+    <h1>Exercício de formulário</h1>
+    <form action="cadastro.php" method="post">
+        
+        <label for="idist">Distrito</label>
+        <select name="distrito" id="idist">
+
+            <option disabled value="" selected>---Escolha o seu distrito---</option>
+
+            <optgroup label="Região Sul">
+                <option value="LX" >Lisboa</option>
+                <option value="ST">Santarém</option>
+            </optgroup>
+
+            <optgroup label="Região Norte">
+                <option value="PT">Porto</option>
+                <option value="LR">Leiria</option>
+            </optgroup>
+        </select>
+
+            <p>
+                <label for="iprof">Profissão</label>
+                <input type="text" name="prof" id="iprof" list="1stprof">
+
+                <datalist id="1stprof">
+
+                <option >Administrador</option>
+                <option >Contabilista</option>
+                <option >Desenvolvedor</option>
+                <option >Professor</option>
+
+                </datalist>
+            </p>
+
+            <p>
+                <label for="icoment">Comentários</label>
+                <textarea name="coment" id="icoment" cols="30" rows="10" placeholder="Deixe seu comentário aqui." style="resize: none;" maxlength="20"
+                ></textarea>
+
+
+            </p>
+
+
+
+       
+
+
+
+        <p> <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </p>
+
+
+
+
+
+    </form>
+</body>
+</html>
