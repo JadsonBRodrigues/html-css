@@ -18,11 +18,39 @@ header {
     background-color: gray;
     color: white;
     padding: 10px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h1 {
+    flex: 0 0 200px;
+}
+
+header nav {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-end;
+
+
+
 }
 
 nav > a {
     text-decoration: none;
     color: white;
+    background-color: black;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+nav > a:hover {
+    background-color: white;
+    color: black;
+    transition: .5s;
 
 
 
